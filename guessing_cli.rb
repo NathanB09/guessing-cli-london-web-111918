@@ -11,4 +11,5 @@ def run_guessing_game
   else
     p "The computer guessed #{random_guess}."
   end
+  run_guessing_game
 end

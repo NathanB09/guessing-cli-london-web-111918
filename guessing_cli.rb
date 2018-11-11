@@ -2,6 +2,7 @@
 def run_guessing_game
   random_guess = rand(1..6)
   p "Guess a number between 1 and 6."
+  user_input = gets.chomp
   case user_input
   when "exit"
     p "Goodbye!"

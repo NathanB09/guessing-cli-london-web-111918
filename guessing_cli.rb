@@ -8,8 +8,9 @@ def run_guessing_game
     p "Goodbye!"
   when random_guess.to_s
     p "You guessed the correct number!"
+    run_guessing_game
   else
     p "The computer guessed #{random_guess}."
+    run_guessing_game
   end
-  run_guessing_game
 end
